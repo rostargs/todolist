@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="js/script.js" defer></script>
+    <title>Mobile ToDo List</title>
+  </head>
+  <body>
+    <section class="section">
+      <div class="section-wrapper">
+        <div class="section__top">
+          <div class="top__camera"></div>
+        </div>
+        <div class="section__middle-wrapper">
+          <div class="section__middle">
+            <div class="middle__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+              dignissimos quae atque. Cumque beatae dolores aliquam modi
+              reiciendis aut, excepturi eum quod, voluptates facere nisi magnam
+              saepe quo quisquam autem. Ad voluptate sit a recusandae aperiam.
+            </div>
+            <div class="title-wrapper">
+              <div class="middle__title">
+                Do you want to create your list of tasks?
+              </div>
+            </div>
+            <div class="middle__button">
+              <button id="accept">CREATE</button>
+            </div>
+          </div>
+          <div class="form-wrapper hidden">
+            <span class="counter">Counter:</span>
+            <h1>TO DO LIST</h1>
+            <form action="#" class="middle__todo-list">
+              <input
+                class="form__input"
+                type="text"
+                placeholder="Write here..."
+              />
+              <button class="form__button" type="submit">Add</button>
+            </form>
+            <ul class="list__todo-list"></ul>
+          </div>
+        </div>
+        <div class="section__bottom">
+          <div class="bottom__press"></div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
